@@ -21,8 +21,7 @@ import usePlacesAutocomplete, {
 
 type LatLngLiteral = google.maps.LatLngLiteral;
 type GeocoderResult = google.maps.GeocoderResult;
-// const REACT_GOOGLE_MAP_API = process.env.REACT_GOOGLE_MAP_API;
-const REACT_GOOGLE_MAP_API = 'AIzaSyCD4AHWO7Cc-Dm9nTzBjmpCfxKijBmqXu4';
+const REACT_GOOGLE_MAP_API = process.env.REACT_GOOGLE_MAP_API || '';
 // const center = { lat: 48.8584, lng: 2.2945 };
 
 interface PinDetails {
